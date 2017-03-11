@@ -31,3 +31,14 @@
   676  ls
   677  history
   678  history | tail -n 33 > commands.txt
+  700  git status
+  701  git stage commands.txt
+  702  git commit -m "commands added"
+  711  git remote add origin git@github.com/pluralsighted/codingdojo_assignment.git
+  716  git push -u origin master
+  717  git pull git@github.com:pluralsighted/codingdojo_assignment.git
+  718  git status
+  719  git push 
+  720  git push --set-upstream origin master
+  721  git status
+  726  git push

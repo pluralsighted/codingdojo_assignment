@@ -1,0 +1,33 @@
+  646  touch index.html style.css aboutMe.txt
+  647  ls
+  648  git add -m "initial setup"
+  649  ls
+  650  git status
+  651  git commit --help
+  652  git commit -a -m "initial setup"
+  653  git add .
+  654  git commit -m "initial setup"
+  655  echo "bio of self" >>aboutMe.txt
+  656  git status
+  657  git stage aboutMe.txt
+  658  ls
+  659  git status
+  660  git commit -m "updated aboutMe"
+  661  echo "The Big Lebowski" >> aboutMe.txt
+  662  git status
+  663  git stage aboutMe.txt
+  664  git commit -m "added favorite movie to aboutMe.txt"
+  665  git log
+  666  cat aboutMe.txt
+  667  git revert -n a786e184
+  668  git log
+  669  git status
+  670  vi aboutMe.txt
+  671  echo "A Tale of Two Cities" >> aboutMe.txt
+  672  git status
+  673  git stage aboutMe.txt
+  674  git commit -m "changed to favorite book"
+  675  git push
+  676  ls
+  677  history
+  678  history | tail -n 33 > commands.txt
